@@ -19,7 +19,11 @@ My motivation for this project was three-pronged. Firstly, I wanted to perform e
 
 ## Dataset
 
+A little about the dataset: the data was webscraped from Glassdoor.com's job listings for data science jobs. I used my own webscraper for it! That can be found here: https://github.com/alckasoc/Joblisting-Webscraper. The dataset is small and can be found in this repo under `input`. As an alternative, I've also stored this on Kaggle publicly: https://www.kaggle.com/datasets/vincenttu/glassdoor-joblisting.
+
 ## Structure
+
+
 
 ## Difficulties
 
