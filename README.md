@@ -1,31 +1,31 @@
-# Joblisting Exploratory Data Analysis (EDA)
+# Joblisting Cleaning & Exploratory Data Analysis (EDA)
 
-An Exploratory Data Analysis (EDA) data science project on the data science joblistings scraped from the Joblisting Webscraper project!
+A cleaning and Exploratory Data Analysis (EDA) data science project on the data science joblistings scraped from the Joblisting Webscraper project!
 
 ## Table of Contents
 
-- [Motivation](https://github.com/alckasoc/Joblisting-EDA/blob/main/README.md#motivation)
-- [Structure](https://github.com/alckasoc/Joblisting-EDA/blob/main/README.md#structure)
-- [Dataset](https://github.com/alckasoc/Joblisting-EDA/blob/main/README.md#dataset)
-- [Difficulties](https://github.com/alckasoc/Joblisting-EDA/blob/main/README.md#difficulties)
-- [What I Learned](https://github.com/alckasoc/Joblisting-EDA/blob/main/README.md#what-i-learned)
-- [References](https://github.com/alckasoc/Joblisting-EDA/blob/main/README.md#references)
-- [Author Info](https://github.com/alckasoc/Joblisting-EDA/blob/main/README.md#author-info)
+- [Motivation](https://github.com/alckasoc/Joblisting-Cleaning-EDA/blob/main/README.md#motivation)
+- [Structure](https://github.com/alckasoc/Joblisting-Cleaning-EDA/blob/main/README.md#structure)
+- [Dataset](https://github.com/alckasoc/Joblisting-Cleaning-EDA/blob/main/README.md#dataset)
+- [Difficulties](https://github.com/alckasoc/Joblisting-Cleaning-EDA/blob/main/README.md#difficulties)
+- [What I Learned](https://github.com/alckasoc/Joblisting-Cleaning-EDA/blob/main/README.md#what-i-learned)
+- [References](https://github.com/alckasoc/Joblisting-Cleaning-EDA/blob/main/README.md#references)
+- [Author Info](https://github.com/alckasoc/Joblisting-Cleaning-EDA/blob/main/README.md#author-info)
 
 
 ## Motivation
 
-My motivation for this project was three-pronged. Firstly, I wanted to perform exploratory knowledge analysis with what I have learned. Secondly, I wanted to venture into the unknown! I wanted to dive deeper into EDA (which I have never really done before in my collection of [Learning ML Projects](https://github.com/alckasoc/LearningML-Projects)). Lastly, this EDA project can provide a comprehensive exploration in job market demographics for data scientist job offerings. :)
+My motivation for this project was three-pronged. Firstly, I wanted to perform exploratory knowledge analysis with what I have learned. Secondly, I wanted to venture into the unknown! I wanted to dive deeper into EDA (which I have never really done before in my collection of [Learning ML Projects](https://github.com/alckasoc/LearningML-Projects)). Lastly, the EDA project can provide a comprehensive exploration in job market demographics for data scientist job offerings. :)
 
 ## Structure
 
-![](https://github.com/alckasoc/Joblisting-EDA/blob/main/img/pipeline_diagram.PNG?raw=true)\
+![](https://github.com/alckasoc/Joblisting-Cleaning-EDA/blob/main/img/pipeline_diagram.PNG?raw=true)\
 Figure 1. Data science lifecycle. 
 <br/><br/>
 
 This project is part of a *larger* project! This is only 1 step in that larger project. To check out the other projects in this series:
 1. [Joblisting-Webscraper](https://github.com/alckasoc/Joblisting-Webscraper)
-2. [Joblisting-EDA](https://github.com/alckasoc/Joblisting-EDA)
+2. [Joblisting-Cleaning-EDA](https://github.com/alckasoc/Joblisting-Cleaning-EDA)
 3. More to come!
 
 
@@ -66,6 +66,7 @@ A little about the dataset: the data was webscraped from Glassdoor.com's job lis
 - This Github issue on [typing the dollar sign in markdown](https://github.com/jupyter/notebook/issues/1080) was something new I learned.
 - This [article](https://towardsdatascience.com/6-different-ways-to-compensate-for-missing-values-data-imputation-with-examples-6022d9ca0779) and this [video](https://www.youtube.com/watch?v=fYhr8eF1ubo) on different ways to impute missing data helped in finding new ways to impute the NaNs I had.
 - I borrowed Aurélien Geron's save_fig() function from [this](https://github.com/ageron/handson-ml2/blob/master/04_training_linear_models.ipynb).
+- [Yan Holtz's website](https://www.python-graph-gallery.com/cheat-sheets/) on different types of graphs was extremely helpful!
 
 ## Author Info
 
