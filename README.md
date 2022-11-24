@@ -56,7 +56,7 @@ A little about the dataset: the data was webscraped from Glassdoor.com's job lis
 ## References
 
 - The [pandas documentation](https://pandas.pydata.org/pandas-docs/stable/) was extremely helpful in deciphering functions and searching for functions.
-- [Ken Jee's End-to-End Data Science Project](https://www.youtube.com/watch?v=QWgg4w1SpJ8&list=PL2zq7klxX5ASFejJj80ob9ZAnBHdz5O1t&index=4&ab_channel=KenJeeKenJeeVerified) provided me an idea of how to approach the data science lifecycle.
+- [Ken Jee's End-to-End Data Science Project](https://www.youtube.com/watch?v=QWgg4w1SpJ8&list=PL2zq7klxX5ASFejJj80ob9ZAnBHdz5O1t&index=4&ab_channel=KenJeeKenJeeVerified) provided me an idea of how to approach the data science lifecycle and greatly inspired this series of projects!
 - [Data Professor's Exploratory Data Analysis Walkthrough](https://www.youtube.com/watch?v=9m4n2xVzk9o) gave me a sense of the data visualizations and aggregations expected in an EDA project.
 - Professor Meyer's [Intro to EDA](https://www.youtube.com/watch?v=zHcQPKP6NpM) equipped me with a refresh of what statistics and data visualization graphs are typically used in this workflow. 
 - Pedro Marcelino's [Kaggle Kernel on EDA](https://www.kaggle.com/pmarcelino/comprehensive-data-exploration-with-python) was a great help in structuring my project (also introduced me to the logarithmic transformation trick).
