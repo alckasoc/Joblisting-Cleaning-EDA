@@ -4,7 +4,7 @@ cufflinks
 dtale
 matplotlib
 numpy
-opencv-python
+opencv-python-headless
 pandas-profiling
 pandas
 plotly
