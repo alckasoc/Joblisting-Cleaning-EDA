@@ -4,9 +4,9 @@ cufflinks
 dtale
 matplotlib
 numpy
-opencv-python
 pandas-profiling
 pandas
+pillow
 plotly
 scikit-learn
 scipy

@@ -2,7 +2,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import cv2
+from PIL import Image
 from st_aggrid import AgGrid
 
 # Page config.
@@ -17,7 +17,7 @@ st.set_page_config(
 )
 
 # Banner.
-image = cv2.cvtColor(cv2.imread("./img/banner/banner_cropped.png"), cv2.COLOR_BGR2RGB)
+image = np.asarray(Image.open("./img/banner/banner_cropped.png"))
 st.image(image)
 
 # Title.
@@ -85,8 +85,7 @@ st.markdown("\
 
 col1, col2, col3 = st.columns([0.25, 2, 0.5])
 
-image = cv2.cvtColor(cv2.imread("./diagrams/joblisting_EDA_cleaning_pipeline.png"), cv2.COLOR_BGR2RGB)
-image = cv2.resize(image, (0, 0), fx=1, fy=1)
+image = np.asarray(Image.open("./diagrams/joblisting_EDA_cleaning_pipeline.png").convert("RGB"))
 with col1: st.write(" ")
 with col3: st.write(" ")
 with col2: 
@@ -129,8 +128,7 @@ st.write("\
 
 col1, col2, col3 = st.columns([1, 2, 1])
 
-image = cv2.cvtColor(cv2.imread("./img/prop.png"), cv2.COLOR_BGR2RGB)
-image = cv2.resize(image, (0, 0), fx=1, fy=1)
+image = np.asarray(Image.open("./img/prop.png").convert("RGB"))
 with col1: st.write(" ")
 with col3: st.write(" ")
 with col2:
@@ -150,8 +148,7 @@ st.write("\
 
 col1, col2, col3 = st.columns([1, 10, 1])
 
-image = cv2.cvtColor(cv2.imread("./img/top_30_company_count.png"), cv2.COLOR_BGR2RGB)
-image = cv2.resize(image, (0, 0), fx=1, fy=1)
+image = np.asarray(Image.open("./img/top_30_company_count.png").convert("RGB"))
 with col1: st.write(" ")
 with col3: st.write(" ")
 with col2:
@@ -171,8 +168,7 @@ st.markdown("\
 
 col1, col2, col3 = st.columns([1, 2, 1])
 
-image = cv2.cvtColor(cv2.imread("./img/rating_dist.png"), cv2.COLOR_BGR2RGB)
-image = cv2.resize(image, (0, 0), fx=1, fy=1)
+image = np.asarray(Image.open("./img/rating_dist.png").convert("RGB"))
 with col1: st.write(" ")
 with col3: st.write(" ")
 with col2:
@@ -193,8 +189,7 @@ st.markdown("\
 
 col1, col2, col3 = st.columns([1, 2, 1])
 
-image = cv2.cvtColor(cv2.imread("./img/hq_bar_count.png"), cv2.COLOR_BGR2RGB)
-image = cv2.resize(image, (0, 0), fx=1, fy=1)
+image = np.asarray(Image.open("./img/hq_bar_count.png").convert("RGB"))
 with col1: st.write(" ")
 with col3: st.write(" ")
 with col2:
@@ -213,8 +208,7 @@ st.markdown("\
 
 col1, col2, col3 = st.columns([1, 2, 1])
 
-image = cv2.cvtColor(cv2.imread("./img/salary_est_dist.png"), cv2.COLOR_BGR2RGB)
-image = cv2.resize(image, (0, 0), fx=1, fy=1)
+image = np.asarray(Image.open("./img/salary_est_dist.png").convert("RGB"))
 with col1: st.write(" ")
 with col3: st.write(" ")
 with col2:
@@ -233,8 +227,7 @@ st.markdown("\
 
 col1, col2, col3 = st.columns([1, 2, 1])
 
-image = cv2.cvtColor(cv2.imread("./img/size_bar.png"), cv2.COLOR_BGR2RGB)
-image = cv2.resize(image, (0, 0), fx=1, fy=1)
+image = np.asarray(Image.open("./img/size_bar.png").convert("RGB"))
 with col1: st.write(" ")
 with col3: st.write(" ")
 with col2:
@@ -252,13 +245,11 @@ st.markdown("\
 
 col1, col2 = st.columns([1, 1])
 
-image = cv2.cvtColor(cv2.imread("./img/allunique_type_count.png"), cv2.COLOR_BGR2RGB)
-image = cv2.resize(image, (0, 0), fx=1, fy=1)
+image = np.asarray(Image.open("./img/allunique_type_count.png").convert("RGB"))
 with col1: 
     st.image(image)
 
-image = cv2.cvtColor(cv2.imread("./img/top_15_sector_count.png"), cv2.COLOR_BGR2RGB)
-image = cv2.resize(image, (0, 0), fx=1, fy=1)
+image = np.asarray(Image.open("./img/top_15_sector_count.png").convert("RGB"))
 with col2:
     st.image(image)
 st.caption("<figcaption style='text-align: center'>Figure 9. Type (left) & Sector (right) Counts.</figcaption>", unsafe_allow_html=True)
@@ -339,18 +330,16 @@ st.markdown("\
 
 col1, col2 = st.columns([1, 1])
 
-image = cv2.cvtColor(cv2.imread("./img/autoviz/bar_plot_1_1.png"), cv2.COLOR_BGR2RGB)
-image = cv2.resize(image, (0, 0), fx=1, fy=1)
+image = np.asarray(Image.open("./img/autoviz/bar_plot_1_1.png").convert("RGB"))
 with col1:
     st.image(image)
-image = cv2.cvtColor(cv2.imread("./img/autoviz/bar_plot_1_2.png"), cv2.COLOR_BGR2RGB)
-image = cv2.resize(image, (0, 0), fx=1, fy=1)
+image = np.asarray(Image.open("./img/autoviz/bar_plot_1_2.png").convert("RGB"))
 with col2: 
     st.image(image)
 
 col1, col2, col3 = st.columns([1, 3, 1])
 
-image = cv2.cvtColor(cv2.imread("./img/autoviz/bar_plot_6_1.png"), cv2.COLOR_BGR2RGB)
+image = np.asarray(Image.open("./img/autoviz/bar_plot_6_1.png").convert("RGB"))
 with col1: st.write(" ")
 with col2:
     st.image(image)
@@ -372,7 +361,7 @@ st.markdown("\
 
 col1, col2, col3 = st.columns([1, 3, 1])
 
-image = cv2.cvtColor(cv2.imread("./img/dtale/company_count_by_size_wordcloud.jpeg"), cv2.COLOR_BGR2RGB)
+image = np.asarray(Image.open("./img/dtale/company_count_by_size_wordcloud.jpeg").convert("RGB"))
 with col1: st.write(" ")
 with col2:
     st.image(image)
@@ -395,7 +384,7 @@ st.markdown("### 3.3. A Free-form Exploration")
 
 col1, col2, col3 = st.columns([1, 3, 1])
 
-image = cv2.cvtColor(cv2.imread("./img/job_desc_wordcloud.png"), cv2.COLOR_BGR2RGB)
+image = np.asarray(Image.open("./img/job_desc_wordcloud.png").convert("RGB"))
 with col1: st.write(" ")
 with col2:
     st.image(image)
@@ -431,7 +420,7 @@ st.markdown("\
 
 col1, col2 = st.columns([1, 2])
 
-image = cv2.cvtColor(cv2.imread("./img/stats_tests_conditions.png"), cv2.COLOR_BGR2RGB)
+image = np.asarray(Image.open("./img/stats_tests_conditions.png").convert("RGB"))
 with col2:
     st.image(image)
 with col1:
