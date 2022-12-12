@@ -128,7 +128,7 @@ st.write("\
 
 col1, col2, col3 = st.columns([1, 2, 1])
 
-image = np.asarray(Image.open("./img/prop.png").convert("RGB"))
+image = np.asarray(Image.open("./img/prop.PNG").convert("RGB"))
 with col1: st.write(" ")
 with col3: st.write(" ")
 with col2:
