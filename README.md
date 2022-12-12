@@ -13,7 +13,7 @@ A cleaning and Exploratory Data Analysis (EDA) data science project on the data 
 - [What I Learned](https://github.com/alckasoc/Joblisting-Cleaning-EDA/blob/main/README.md#what-i-learned)
 - [References](https://github.com/alckasoc/Joblisting-Cleaning-EDA/blob/main/README.md#references)
 - [Author Info](https://github.com/alckasoc/Joblisting-Cleaning-EDA/blob/main/README.md#author-info)
-
+- [Thank you](https://github.com/alckasoc/Joblisting-Cleaning-EDA/blob/main/README.md#thank-you)
 
 ## Motivation
 
@@ -52,16 +52,23 @@ A little about the dataset: the data was webscraped from Glassdoor.com's job lis
 - I struggled with structuring this project! There were so many things to include or think about that I spent a good deal of time thinking about the infrastructure of my project. One example was figuring out how to structure the main dataframes and the edit log for convenience and readability. I finally solved this issue after a long mental discussion and came up with a design (specified in the project).
 - One difficulty (as I am working on the project now) is the interpretation! I've interpreted different transformations on a df before, but, as I write these chains of complex functions, I realize that interpretation soon grows a bit more complex! I've spent countless hours interpreting and stepping through transformations.
 - Another difficulty, this one I encountered in data wrangling and cleaning, was deciding on how to impute the data and how to interpret and create thresholds for keeping or deleting features and rows. Because of the many imputation methods and the context in which imputing needs to be considered in, data cleaning took a bit of time!
+- I also had a number of technical difficulties with setting up code for my EDA and app! Though these were just examples of my inexperience with this. After a few hours of scratching my head and reading stack overflow posts, I eventually solved all of these technical difficulties!
 
 ## What I Learned
 
 - Imbalanced Learn
     - Imbalanced-learn is a great library for tackling over/under sampling problems playing off of scikit-learns name!
-- Pandas profiling
-    - pandas profiling is a comprehensive pandas tool for analyzing dataframes (summary statistics and graphs).
+- Pandas profiling/sweetviz/autoviz/dtale
+    - pandas profiling and the like are comprehensive tools for analyzing dataframes (summary statistics and graphs) automatically.
+- Plotly
+    - A high-level visually stunning and interactive graphing library.
+    - I learned a good chunk of plotly in order to make the heatmaps you see in my EDA!
+- SciPy
+    - A library for scientific computation.
+    - I learned a bit of inferential statistics through scipy in my EDA.
 - EDA structure
     - As messy as EDA can be, there needs to be some imposed structure for people to follow your line of thought!
-- Google Spreadsheet
+- Google Spreadsheets
 - Data Science Analysis
     - Analysis can take many forms and it's often an umbrella term. Analyzing large quantities of data means effectively aggregating findings and results. This project I've split analyses into 2 categories: breadth and depth. The first paradigm of analyses seeks to get comfortable with the data and probe it. The second seeks to answer specific questions and dive *deeper* into the data.
 - Asking the right questions!
@@ -81,10 +88,16 @@ A little about the dataset: the data was webscraped from Glassdoor.com's job lis
 - This [article](https://towardsdatascience.com/6-different-ways-to-compensate-for-missing-values-data-imputation-with-examples-6022d9ca0779) and this [video](https://www.youtube.com/watch?v=fYhr8eF1ubo) on different ways to impute missing data helped in finding new ways to impute the NaNs I had.
 - I borrowed Aurélien Geron's save_fig() function from [this](https://github.com/ageron/handson-ml2/blob/master/04_training_linear_models.ipynb).
 - [Yan Holtz's website](https://www.python-graph-gallery.com/cheat-sheets/) on different types of graphs was extremely helpful!
+- [Plotly's Documentation](https://plotly.com/python/) came in *very* handy for all the searching I had to do.
 
 ## Author Info
 
 Contact me:
 
 Gmail: tuvincent0106@gmail.com\
-Linkedin: [Vincent Tu](https://www.linkedin.com/in/vincent-tu-422b18208/)
+Linkedin: [Vincent Tu](https://www.linkedin.com/in/vincent-tu-422b18208/)\
+Kaggle: [vincenttu](https://www.kaggle.com/vincenttu)
+
+## Thank you
+
+I've written quite a few of these notes already, but I ought to write one more for the README. This wonderful project has been a rollercoaster and I've enjoyed and turn, twist, and drop. Thank you for checking out my project and reading this! 😁
