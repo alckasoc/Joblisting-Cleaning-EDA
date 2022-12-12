@@ -1,3 +1,5 @@
+![](https://github.com/alckasoc/Joblisting-Cleaning-EDA/blob/main/img/banner/banner.png?raw=true)
+
 # Joblisting Cleaning & Exploratory Data Analysis (EDA)
 
 A cleaning and Exploratory Data Analysis (EDA) data science project on the data science joblistings scraped from the Joblisting Webscraper project!
@@ -19,7 +21,7 @@ My motivation for this project was three-pronged. Firstly, I wanted to perform e
 
 ## Structure
 
-![](https://github.com/alckasoc/Joblisting-Cleaning-EDA/blob/main/diagram/pipeline_diagram.PNG?raw=true)\
+![](https://github.com/alckasoc/Joblisting-Cleaning-EDA/blob/main/diagrams/pipeline_diagram.PNG?raw=true)\
 Figure 1. Data science lifecycle. 
 <br/><br/>
 
