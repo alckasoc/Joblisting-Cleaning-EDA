@@ -1,4 +1,4 @@
-![](https://github.com/alckasoc/Joblisting-Cleaning-EDA/blob/main/img/banner/banner.png?raw=true)
+![](https://github.com/alckasoc/Joblisting-Cleaning-EDA/blob/main/img/banner/banner_cropped.png?raw=true)
 
 # Joblisting Cleaning & Exploratory Data Analysis (EDA)
 
