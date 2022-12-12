@@ -19,7 +19,7 @@ My motivation for this project was three-pronged. Firstly, I wanted to perform e
 
 ## Structure
 
-![](https://github.com/alckasoc/Joblisting-Cleaning-EDA/blob/main/img/pipeline_diagram.PNG?raw=true)\
+![](https://github.com/alckasoc/Joblisting-Cleaning-EDA/blob/main/diagram/pipeline_diagram.PNG?raw=true)\
 Figure 1. Data science lifecycle. 
 <br/><br/>
 
@@ -27,6 +27,18 @@ This project is part of a *larger* project! This is only 1 step in that larger p
 1. [Joblisting-Webscraper](https://github.com/alckasoc/Joblisting-Webscraper)
 2. [Joblisting-Cleaning-EDA](https://github.com/alckasoc/Joblisting-Cleaning-EDA)
 3. More to come!
+
+About the structure of this repo:
+* `csv` stores the CSVs I generated for this project
+* `diagrams` stores my diagrams
+* `img` stores images from EDA, auto-EDA, and the banner for my app
+* `input` stores the dataset I scraped
+* `pages` stores the subpage for my app
+* `sheets` stores the spreadsheet I use to organize my EDA process
+* `1_📚_EDA_Report.py` is the main page of my app
+* `banner.ipynb` is a short notebook with code that generated the images I used for my banner
+* `cleaning.ipynb` is my cleaning notebook and pipeline
+* `eda.ipynb` is my EDA notebook
 
 
 ## Dataset
