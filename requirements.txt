@@ -1,3 +1,4 @@
+# For app.
 autoviz
 chart-studio
 cufflinks
@@ -16,3 +17,22 @@ streamlit-aggrid
 sweetviz
 tqdm
 wordcloud
+
+# For project.
+# autoviz==0.1.58
+# chart-studio==1.1.0
+# cufflinks==0.17.3
+# dtale
+# matplotlib==3.6.0
+# numpy==1.23.4
+# pandas-profiling==3.3.0
+# pandas==1.2.4
+# plotly==5.3.1
+# scikit-learn==1.1.2
+# scipy==1.9.2
+# seaborn==0.11.1
+# streamlit==1.15.2
+# streamlit-aggrid==0.3.3
+# sweetviz==2.1.4
+# tqdm==4.64.1
+# wordcloud==1.8.2.2

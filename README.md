@@ -1,5 +1,7 @@
 ![https://joblisting-cleaning-and-eda.streamlit.app/](https://github.com/alckasoc/Joblisting-Cleaning-EDA/blob/main/img/banner/banner_cropped.png?raw=true)
 
+![https://joblisting-cleaning-and-eda.streamlit.app/](https://github.com/alckasoc/Joblisting-Cleaning-EDA/blob/main/img/banner/my_app_banner.png?raw=true)
+
 # Joblisting Cleaning & Exploratory Data Analysis (EDA)
 
 A cleaning and Exploratory Data Analysis (EDA) data science project on the data science joblistings scraped from the Joblisting Webscraper project!
@@ -42,6 +44,7 @@ About the structure of this repo:
 * `cleaning.ipynb` is my cleaning notebook and pipeline
 * `eda.ipynb` is my EDA notebook
 
+**Note**: the package versions listed in `requirements.txt` and imported in my code may not be the exact versions. However, the versioning here is less important. I've listed all used libraries.
 
 ## Dataset
 
@@ -100,4 +103,4 @@ Kaggle: [vincenttu](https://www.kaggle.com/vincenttu)
 
 ## Thank you
 
-I've written quite a few of these notes already, but I ought to write one more for the README. This wonderful project has been a rollercoaster and I've enjoyed and turn, twist, and drop. Thank you for checking out my project and reading this! 😁
+I've written quite a few of these notes already, but I ought to write one more for the README. This wonderful project has been a rollercoaster and I've enjoyed and turn, twist, and drop. I'd like to thank the internet for carrying me through all the countless hours of debugging! [Catherine](https://github.com/crasgaitis), thank you for helping with the banner. You've inspired me all throughout this project ❤️! And thank *you* for checking out my project and reading this! 😁👋
