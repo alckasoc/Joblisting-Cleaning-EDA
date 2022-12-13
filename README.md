@@ -16,7 +16,7 @@ A cleaning and Exploratory Data Analysis (EDA) data science project on the data 
 - [References](https://github.com/alckasoc/Joblisting-Cleaning-EDA/blob/main/README.md#references)
 - [Author Info](https://github.com/alckasoc/Joblisting-Cleaning-EDA/blob/main/README.md#author-info)
 - [Thank you](https://github.com/alckasoc/Joblisting-Cleaning-EDA/blob/main/README.md#thank-you)
-
+ 
 ## Motivation
 
 My motivation for this project was three-pronged. Firstly, I wanted to perform exploratory knowledge analysis with what I have learned. Secondly, I wanted to venture into the unknown! I wanted to dive deeper into EDA (which I have never really done before in my collection of [Learning ML Projects](https://github.com/alckasoc/LearningML-Projects)). Lastly, the EDA project can provide a comprehensive exploration in job market demographics for data scientist job offerings. :)
