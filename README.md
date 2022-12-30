@@ -31,7 +31,6 @@ This project is part of a *larger* project! This is only 1 step in that larger p
 1. [Joblisting-Webscraper](https://github.com/alckasoc/Joblisting-Webscraper)
 2. [Joblisting-Cleaning-EDA](https://github.com/alckasoc/Joblisting-Cleaning-EDA)
 3. [Joblisting-Modeling](https://github.com/alckasoc/Joblisting-Modeling)
-4. More to come!
 
 About the structure of this repo:
 * `csv` stores the CSVs I generated for this project
